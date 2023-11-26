@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box  ;
+    
+}
+
+body {
+    font-family:'Roboto',sans-serif;
+    background-color:white;
+}
+
+:root {
+    --primary-color:#333;
+
+}
+
+.container{
+    padding: 0 15px;
+}
+
+
+nav{
+    
+    align-items: center;
+    height: 80px;
+    max-width: 100%;
+    background-color: var(--primary-color);
+
+}
+label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.search{
+    height:100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.search .search-container{
+    width: 540px;
+    height: 36px;
+    background-color:red;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /23%);
+    display: flex;
+}
+.search .search-container input{
+    width: calc(100% - 20px);
+    padding: 16px;
+    outline: none;
+    border: none;
+
+}
+.search .search-container button{
+    width: 36px;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: red;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+.login{
+    height:100%;
+    display:flex;
+    align-items: center;
+    margin: 0 20px;
+    color: red;
+}
+.login button{
+    width:122px;
+    padding: 5px 40px;
+    height: 36px;
+    font-size: 600;
+    color: black;
+}
+
+.became-seller {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.more {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.more svg {
+    margin-left: 8px;
+    rotate: -90deg;
+}
+
+.cart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+}
+
+.cart svg {
+    margin-right: 9px;
+}
+
+/* section 1 */
+
+.section-1 {
+    width: 100%;
+    height: 122px;
+    background-color: black;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+}
+.section-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.section-1-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.section-1-item img {
+    width: 64px;
+    height: 64px;
+}
+
+/* section 2 */
+.section-2-container {
+    margin-top: 16px;
+    height: 180px;
+   
+}
+
+/* section 3 */
+.section-3-container {
+    margin-top: 8px;
+    height: 122px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.col {
+    border: solid grey 1px;
+    height: 600px;
+    margin-top: 8px;
+    padding: 15px;
+    background-color:rgb(244, 219, 188);
+    justify-content: space-between;
+}
+.banner-row {
+    display: flex;
+    justify-content:left; /* Center banners horizontally within the row */
+    margin-bottom: 20px; /* Add some spacing between rows */
+    align-content: flex-start;
+}
+
+.banner {
+    flex: 1; /* Distribute available space equally between the banners in a row */
+    text-align: center; /* Center content horizontally */
+    margin: 0 10px; /* Add some spacing between banners within a row */
+    border: solid grey 1px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 25px;
+    border: solid white;
+
+   
+}
+.banner img {
+  
+    height: 180px;
+    width: 200px;
+    
+   
+    
+}
+.banner-1 {
+    flex: 1; /* Distribute available space equally between the banners in a row */
+    text-align: center; /* Center content horizontally */
+     /* Add some spacing between banners within a row */
+    
+    margin-bottom: 25px;
+    background-color: white;
+    margin-top: ;
+   
+     
+     
+}
+
+.banner-1 img {
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: 530px;
+    width: 1500px;
+}
+
+
+/* section 4 */
+.section-4-container {
+    margin-top: 8px;
+    height: 362px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-4-offer {
+    width: 230px;
+    height: 100%;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90');
+    background-position: bottom;   
+    background-repeat: no-repeat;
+    
+}
+.section-4-offer-viewall {
+    margin-top: 132px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-4-offer-viewall button {
+    margin-top: 24px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 0 rgb(0,0,0 /20%);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius:2px;
+    border: none;
+    cursor: pointer;
+
+}
+.section-4-list {
+    height: 100%;
+    width: calc(100% - 230px);
+    display: flex;
+    overflow: auto;
+
+}
+.section-4-item {
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-4-item img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.section-4-item-head {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-4-item-price {
+    margin-top: 12x;
+    font-size: 16px;
+    color: #388e3c;
+}
+.section-4-item-explore {
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 12px;
+
+}
+/* section 5 */
+
+.section-5 {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-5 img{
+    width: 33%;
+}
+
+/* footer */
+footer {
+  display: flex;
+}
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.fIcons{
+  display: flex;
+}
+
+.fIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright{
+  font-weight: 300;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+

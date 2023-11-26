@@ -1,0 +1,185 @@
+
+.navbar {
+    background-color: rgb(154, 154, 247);
+}
+.navbar-brand{
+    text-decoration: black;
+    font-weight: bold;
+    font-family: cursive;
+    font-stretch: extra-expanded;
+    padding-left: 20px;
+    padding-right: 70px;
+    width: 200px;
+}
+.nav-item{
+    font-weight: 500;
+    padding-left: 50px;
+    text-decoration: black;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+}
+.d-flex{
+    padding-right: 50px;
+}
+
+/* section 1 */
+.section-1-container-fluid {
+    max-width: 5000px;
+    margin: 0 auto;
+    height: 130%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.section-1-item-container-fluid {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-1-item-container-fluid img {
+    width: 64px;
+    height: 64px;
+}
+
+.section-1-item-container-fluid img:hover {
+    transform: scale(1.3);
+}
+
+
+/* section 3 */
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    height: 350px; 
+}
+
+
+.image {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+    padding: 10px; 
+    padding-top: 20px;
+    padding-left: 2px;
+}
+/* section 4*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the poster section */
+.poster-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Style individual posters */
+.poster {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 300px; /* Limit poster width */
+}
+
+.poster img {
+    max-width: 100%;
+    height: 100px;
+}
+
+.poster h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.poster img:hover{
+    transform: scale(1.2);
+}
+
+/* card  */
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+
+/* footer */
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+/* Center the footer content */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style each footer section */
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the footer links */
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #ff6600; /* Change color on hover */
+}
